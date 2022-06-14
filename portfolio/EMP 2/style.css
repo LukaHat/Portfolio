@@ -1,0 +1,15 @@
+table{
+    background-color: rgb(122, 172, 31);
+}
+#imeKolegija {
+    border-right: 1px solid black;
+}
+.bottombord {
+    border-bottom: 1px solid black;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}

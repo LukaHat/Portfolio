@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prva forma</title>
+</head>
+
+<body>
+    <form method="get" action="#">
+        Unesite svoje ime: <input type="text" id="ime" name="ime">
+        <br>
+        Unesite svoje prezime: <input type="text" id="prezime" name="prezime">
+        <br>
+        Upišite lozinku <input type="password" name="lozinka" id="lozinka">
+        <br> <br>
+        Odaberi datoteku za upload:<input type="file" name="datoteka" id="datoteka">
+        <br> <br>
+        Gdje stanujete u mjestu studiranja? <br>
+        <input type="radio" name="mjesto" value="st">Studentski dom <br>
+        <input type="radio" name="mjesto" value="pd">Podstanarstvo <br>
+        <input type="radio" name="mjesto" value="vsk">Vlastiti stan/kuća <br>
+        <input type="radio" name="mjesto" value="p">Putnik sam <br> <br> <br>
+        Označite mjesto vašeg prebivališta <br>
+        <input type="checkbox" name="preb" value="os"> Osijek <br>
+        <input type="checkbox" name="preb" value="oos"> Okolica Osijeka <br>
+        <input type="checkbox" name="preb" value="ost"> Ostalo
+        Koja ste godina studija? <br>
+        <select name="godina">
+            <option value="1">1.</option>
+            <option value="2">2.</option>
+            <option value="3">3.</option>
+            <option value="4">4.</option>
+            <option value="5">5.</option>
+        </select> <br> <br>
+        Jeste li zadovoljni studentskom prehranom? Objasnite. <br>
+        <textarea name="opisno" cols="50" rows="8"></textarea>
+        <br> <br>
+        <input type="submit" value="Obradi">
+        <input type="reset" value="Poništi">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+h1{color: red;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+img{
+    height: 500px;
+    width: 500px;
+}
+p{
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+}
+*{background-color: bisque;
+}

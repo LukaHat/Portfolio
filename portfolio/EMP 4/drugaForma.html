@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Druga forma</title>
+    <script>
+        function zbroj() {
+            var broj1 = parseInt(document.getElementById("a").value);
+            var broj2 = parseInt(document.getElementById("b").value);
+            var rezultat = broj1 + broj2;
+            document.write(rezultat);
+        }
+    </script>
+</head>
+
+<body>
+    <form action="javascript:;" onsubmit="return zbroj()" method="post">
+        Unesite prvi broj: <input type="text" id="a"> <br> <br>
+        Unesite drugi broj: <input type="text" id="b"> <br> <br>
+        <input type="submit" value="Izračunaj">
+    </form>
+</body>
+
+</html>
