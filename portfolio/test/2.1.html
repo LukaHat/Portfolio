@@ -1,0 +1,33 @@
+<!--Tekst zadatka
+Za učitanih 5 brojeva provjerite čine li oni palindrom, ako da pretvorite znamenke u. broj i
+provjerite radi li se o neparnom broju. Ako je odgovor da ispišite taj broj u protivnom broj
+pretvorite u neparni i potom ga ispišite. Ako učitane znamenke ne čine palindrom program
+treba odmah prekinuti s radom bez ikakvog ispisa. [1 bod] -->
+<html>
+
+<body>
+    <script>
+        function test() {
+            var n1, n2, n3, n4, n5;
+            n1 = +prompt();
+            n2 = +prompt();
+            n3 = +prompt();
+            n4 = +prompt();
+            n5 = +prompt();
+            if (n1 == n5 && n2 == n4) {     
+                var broj = parseInt(n1 * 10000 + n2 * 1000 + n3 * 100 + n4 * 10 + n5 * 1);
+                if (broj % 2 != 0) {
+                    document.write(broj);
+                }
+                else {
+                    broj = broj + 1;
+                    document.write(broj);
+                }
+            }
+            else { return }
+        }
+        test();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<html>
+
+<body>
+    <script>
+        function test() {
+            var tisucuKuna, petstoKuna, dvjestoKuna, stoKuna, pedesetKuna, dvadesetKuna, desetKuna, petKuna, dvijeKune, jednaKuna, pedesetLipa, dvadesetLipa, desetLipa, petLipa, zbroj = 0;
+            tisucuKuna = +prompt("Koliko je novčanica od 1000 kn?");
+
+            if (tisucuKuna < 0) {
+                document.write("Učitan negativan broj", "<br>");
+                tisucuKuna = tisucuKuna * -1;
+                zbroj = zbroj + tisucuKuna * 1000
+                document.write("1000kn * ", tisucuKuna, "=", zbroj, "kn");
+            }
+            else {
+                if (tisucuKuna !== parseInt(tisucuKuna)) {
+
+                    tisucuKuna = parseInt(tisucuKuna);
+                    zbroj = zbroj + tisucuKuna * 1000;
+                    document.write("Učitana ne cjelobrojna vrijednost", "<br>", "1000kn * ", tisucuKuna, "=", zbroj, "kn")
+                }
+                else {
+                    zbroj = zbroj + tisucuKuna * 1000;
+                    document.write("1000kn * ", tisucuKuna, "=", zbroj, "kn");
+                }
+
+            }
+
+        }
+        test();
+    </script>
+</body>
+
+</html>
+
+<!--Tekst zadatka
+Marta radi na štandu. Svaku večer mora gazdi predati obračun blagajne. Da bi si olakšala
+obračun želi napisati program kojim će moći izračunati i ispisati utržak. Novčanice mogu
+biti od 1000 kn, 500 kn, 200 kn, 100 kn, 50 kn, 20 kn i 10 kn, a kovanice od 5 kn, 2 kn, 1
+kn, 50 lipa, 20 lipa, 10 lipa i 5 lipa. Marti program treba ponuditi učitavanje svakog od
+apoena s tim da se u unosnom promptu ispisuje poruka što se učitava. Nakon, što se upiše
+broj novčanica ili broj kovanica program odmah treba ispisati, u zaseban red, kolika je
+nakon upisivanja broja kumulirana vrijednost. Ako se zabunom učita negativan broj
+program treba ispisati poruku (bez navodnika) „Učitan negativan broj“ i pretvoriti broj u
+pozitivan i njime obaviti kumuliranje. Ako se pak učita ne cjelobrojna vrijednost program
+treba ispisati poruku (bez navodnika) „Učitana ne cjelobrojna vrijednost“, broj pretvoriti u
+cjelobrojnu vrijednost i s njime obaviti kumuliranje. Ispred svakog kumulativa ispsuje se
+apoen, znak puta, broj novčanica ili kovanica, znak jednakosti te vrijednost kumulativa s
+oznakom valute (npr. 200 kn * 3 = 600 kn) Osim vrijednosti utrška koji se formira kroz
+sukcesivno kumuliranje program treba ispisati na kraju u posebnim redovima i koliko je
+bilo novčanica (npr. Novčanica = 12) te koliko je bilo kovanica (npr. Kovanica = 33).
+Pomozite Marti napisati program. 
+-->
