@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+#navbar {
+    background-color: #4E944F;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    font-size: 10px;
+    width: 100%;
+    position: fixed;
+    padding: 5px;
+}
+
+button {
+    border-radius: 25px;
+    width: 100px;
+    height: 50px;
+    background-color: #4E944F;
+    border: none;
+}
+
+h1:hover {
+    color: white;
+    transition: 0.5s ease-in;
+}
+
+#proizvodiButton:hover {
+    color: white;
+    transition: 0.7s ease-in;
+}
+
+#uslugeButton:hover {
+    color: white;
+    transition: 0.7s ease-in;
+}
+
+#kontaktButton:hover {
+    color: white;
+    transition: 0.7s ease-in;
+}
+
+#imeNav {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+body {
+    background-color: #E9EFC0;
+}
+
+#slikaGraficka {
+    width: 350px;
+    height: 350px;
+
+}
+
+#bodyPartOne {
+    padding-top: 60px;
+    display: flex;
+    background-color: #E9EFC0;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#pozivNaWebshop {
+    font-size: 35px;
+    align-self: center;
+    padding-right: 50px;
+}
+
+#pozivNaWebshop a button {
+    font-size: 30px;
+    width: 150px;
+    height: 100px;
+    background-color: #83BD75;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+
+#bodyPartTwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #B4E197;
+    width: 100%;
+
+}
+
+#bodyPartTwo img {
+    width: 450px;
+    height: 350px;
+}
+
+#pozivNaServis {
+    font-size: 35px;
+    align-self: center;
+    margin-left: 150px;
+}
+
+#pozivNaServis a button {
+    font-size: 30px;
+    width: 150px;
+    height: 100px;
+    background-color: #83BD75;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+
+#mainName {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+#introProizvodi {
+    padding-top: 100px;
+    background-color: #83BD75;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 30px;
+}
+
+#sviProizvodi {
+    background-color: #B4E197;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+    gap: 20px 40px;
+    height: 800px;
+    width: 100%;
+}
+
+#proizvodJedan img {
+    width: 80%;
+    height: 80%;
+}
+
+#proizvodJedan {
+    background-color: white;
+    padding: 50px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 400px;
+    height: 400px;
+    color: #83BD75;
+
+}
+
+#proizvodDva img {
+    width: 80%;
+    height: 80%;
+}
+
+#proizvodDva {
+    background-color: white;
+    padding: 50px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 400px;
+    height: 400px;
+    color: #83BD75;
+}
+
+#proizvodTri img {
+    width: 80%;
+    height: 80%;
+}
+
+#proizvodTri {
+    background-color: white;
+    padding: 50px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 400px;
+    height: 400px;
+    color: #83BD75;
+}
+
+#proizvodJedan:hover {
+    color: #4E944F;
+}
+
+#proizvodDva:hover {
+    color: #4E944F;
+}
+
+
+#proizvodTri:hover {
+    color: #4E944F;
+}
+
+#cijena {
+    color: black;
+    font-size: 27px;
+    margin-left: 140px;
+}
