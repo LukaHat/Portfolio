@@ -1,0 +1,31 @@
+@import ./_variables
+@import ./_mixins
+
+nav
+    display: flex
+    align-items: center
+    justify-content: space-between
+    width: 100vw
+    height: 10vh
+    border-bottom: 1px solid lightgray
+    #navbar-links
+        margin-right: 100px
+        display: flex
+        flex-direction: row
+        gap: 20px
+        li
+            &:hover
+                color: $light-accent
+    #navbar-icon
+        margin-left: 100px
+        display: flex
+        align-items: center
+        justify-content: center
+        gap: 20px
+        h1
+            &:hover
+                color: $light-accent
+        img
+            width: 10%
+            height: 100%
+    
