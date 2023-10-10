@@ -1,7 +1,7 @@
 @import ./_variables
 @import ./_mixins
 
-*
+body
     font-family: 'Golos Text', sans-serif
     margin: 0
     padding: 0
@@ -11,3 +11,20 @@
         color: inherit
         list-style-type: none
         text-decoration: none
+    main
+        margin-left: 100px
+        width: 80vw
+        #oMeni
+            margin-top: 10vh
+            display: flex
+            align-items: flex-start
+            justify-content: space-between
+            article
+                width: 40%
+                a
+                    color: $light-accent
+                    &:hover
+                        color: $dark-secondary
+            img
+                height: 30vh
+            

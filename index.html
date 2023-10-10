@@ -1,28 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;700&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <a href="#"><div id="navbar-icon">
-            <img src="./assets/redhat.svg" alt="#">
-            <h1>Luka Hat</h1>
+      <a href="#"
+        ><div id="navbar-icon">
+          <img src="./assets/redhat.svg" alt="#" />
+          <h1>Luka Hat</h1>
         </div>
-        </a>
-        <ul id="navbar-links">
-            <a href="#"><li>O meni</li></a>
-            <a href="#"><li>Projekti</li></a>
-            <a href="#"><li>Kontakt</li></a>
-        </ul>
+      </a>
+      <ul id="navbar-links">
+        <a href="#oMeni"><li>O meni</li></a>
+        <a href="#projekti"><li>Projekti</li></a>
+        <a href="#kontakt"><li>Kontakt</li></a>
+      </ul>
     </nav>
-    <main></main>
+    <main>
+      <section id="oMeni">
+        <article>
+          <h2>O meni</h2>
+          Bok, ja sam <span>Luka Hat</span>. Student sam Poslovne informatike na
+          <a href="http://www.efos.unios.hr/" target="_blank"
+            >Ekonomskom fakultetu u Osijeku</a
+          > te se bavim poljem Frontend web developmenta. 
+        </article>
+        <img
+          src="./assets/casual-life-3d-man-working-on-laptop-and-drinking-coffee.png"
+          alt=""
+        />
+      </section>
+      <section id="projekti">
+        <h2>Projekti</h2>
+        <article>
+          <div class="projekt">
+            <img src="#" alt="" />
+            <span class="tehnologije"></span>
+            <h3>Opis projekta</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Blanditiis, id et quasi odio deserunt dolore explicabo quia
+              impedit ipsam. Earum.
+            </p>
+          </div>
+        </article>
+      </section>
+      <section id="kontakt">
+        <h2>Kontakt</h2>
+        <article>
+          <form action="mailto:luka.hat58@gmail.com" method="post" enctype="text/plain">
+            <label for="userEmail">Email:</label>
+            <input type="email" id="userEmail" name="userEmail" required><br><br>
+    
+            <label for="message">Poruka:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+    
+            <input type="submit" value="Send Email">
+        </form>
+        </article>
+      </section>
+    </main>
     <footer></footer>
-</body>
+  </body>
 </html>
