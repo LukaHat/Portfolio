@@ -1,5 +1,4 @@
 @import ./_variables
-@import ./_mixins
 
 body
     font-family: 'Golos Text', sans-serif
@@ -27,4 +26,33 @@ body
                         color: $dark-secondary
             img
                 height: 30vh
-            
+        #projekti
+            article
+                display: flex
+                align-items: center
+                justify-content: center
+                gap: 5%
+                .projekt
+                    height: 55vh
+                    width: 30vw
+                    background-color: $light-secondary
+                    padding: 40px 20px
+                    border-radius: 20px
+                    .projekt-feature
+                        width: 100%
+                        height: 40%
+                    span
+                        display: flex
+                        align-items: center
+                        justify-content: space-around
+                        img
+                            height: 6vh
+                    .github-link
+                        display: flex
+                        align-items: center
+                        justify-content: center
+                        img
+                            height: 10vh
+                            &:hover
+                               transform: scale(1.2)
+                               transition: 200ms
